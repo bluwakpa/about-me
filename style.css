@@ -1,11 +1,11 @@
 
 /* General Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap');
+@import url('link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet');
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif, arial;
 }
 
 img {
@@ -13,9 +13,9 @@ img {
 }
 
 nav {
-  font-size: 16px;
+  font-size: 18px;
   background-color: #333;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Open Sans', sans-serif, arial;
   padding: 20px 0;
   margin: 0 0 10px 10px;
 }
@@ -23,7 +23,7 @@ nav {
 /* Navigation Container */
 a {
   padding: 0px 15px 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: #dc3545;
   word-wrap: break-word;
   text-decoration: none;
@@ -37,20 +37,26 @@ img.rounded {
   border-radius: 8px;
 }
 
+img.buffer {
+  
+  margin: 0px;
+}
+
 main h2 {
-  font-size: 28px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 38px;
+  font-family: 'Open Sans', sans-serif, arial;
   font-weight: 400;
 }
 
 main h3 {
-  font-size: 22px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif, arial;
   font-weight: 400;
 }
 
-main p {
- font-family: 'Montserrat', sans-serif;
+p {
+ font-family: 'Open Sans', sans-serif, arial;
+ font-size: 18px;
  line-height: 1.5em;
  margin-bottom: 0em;
 }
@@ -68,8 +74,8 @@ header h1 {
   text-align: center;
   margin: 4;
   padding: 20px 0;
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 56px;
+  font-family: 'FF Din', dax, optima;
+  font-size: 68px;
 }
 
 /* Container holding the image and the text */
@@ -80,10 +86,17 @@ header h1 {
   color: white;
 }
 
-/* Centered text */
+/* Centered H1 text */
 .centered {
   position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Centered H2 text */
+.centered-buff {
+  position: absolute;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
