@@ -168,3 +168,20 @@ main .intro {
   padding: 20px 0 30px 0;
   margin: 120px 0;
 }
+
+/* Contact Form Design */
+
+form {
+  padding-right: 6px;
+  /* Fixed small sizing issue on the right */
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
