@@ -71,13 +71,13 @@ header {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-header h1 {
+header h1, header h2{
   color: #eff0e5;
   text-align: center;
-  margin: 4;
+  margin: 4px;
   padding: 20px 0;
   font-family: 'FF Din', dax, optima;
-  font-size: 68px;
+  font-size: 22px;
 }
 }
 
