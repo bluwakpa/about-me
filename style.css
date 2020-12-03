@@ -17,12 +17,12 @@ nav {
   background-color: #333;
   font-family: 'Open Sans', sans-serif, arial;
   padding: 20px 0;
-  margin: 0 0 10px 10px;
+  /* margin: 0 0 10px 10px; */
 }
 
 /* Navigation Container */
 a {
-  padding: 0px 15px 10px 20px;
+  padding: 0px 10px 10px 0px;
   font-size: 18px;
   color: #dc3545;
   word-wrap: break-word;
@@ -38,12 +38,11 @@ img.rounded {
 }
 
 img.buffer {
-  
   margin: 0px;
 }
 
 main h2 {
-  font-size: 38px;
+  font-size: 38vi;
   font-family: 'Open Sans', sans-serif, arial;
   font-weight: 400;
 }
@@ -65,8 +64,9 @@ p {
 
 header {
   background-color: black;
+  justify-content: space-between;
   margin-bottom: 40px;
-  display: block;
+  display: flex;
 }
 
 header h1 {
@@ -75,7 +75,7 @@ header h1 {
   margin: 4;
   padding: 20px 0;
   font-family: 'FF Din', dax, optima;
-  font-size: 68px;
+  font-size: 68vi;
 }
 
 /* Container holding the image and the text */
