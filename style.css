@@ -125,6 +125,25 @@ header h1, header h2{
 }
 @media screen and (max-width: 600px) { .portfolio-container { grid-template-columns: repeat (1,1fr); grid-template-rows: repeat(1,1fr); } }
 
+.project-title {
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.title-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.title-link:hover, .title-link:focus {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #3587A4;
+}
+
 svg:not(:root).svg-inline--fa {
   overflow: visible;
 }
