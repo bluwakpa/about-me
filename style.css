@@ -104,6 +104,52 @@ header h1, header h2{
   transform: translate(-50%, -50%);
 }
 
+.skills-container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 15px;
+  text-align: center;
+}
+
+.portfolio-container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) { .portfolio-container { grid-template-columns: repeat (1,1fr); grid-template-rows: repeat(1,1fr); } }
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+
+.skill-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  /* font-size: inherit; */
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+.grow {
+    width: 50px;
+}
+
 /*  Main */
 
 main  .wrapper  h2 {
@@ -158,6 +204,14 @@ main .intro {
 /* ABOUT ARTICLE */
 
 #about {
+  background-color: lightgray;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+}
+
+/* SKILLS ARTICLE */
+
+#skills {
   background-color: lightgray;
   padding: 20px 0 30px 0;
   margin: 120px 0;
