@@ -118,7 +118,7 @@ header h1, header h2{
 }
 
 .fullscreen {
-  height: 50vh;
+  height: 40vh;
   width: 75%;
   margin: 0 auto;
   display: flex;
