@@ -80,7 +80,7 @@ p {
 
 header {
   font-family: 'Open Sans', sans-serif, arial;
-  background-color: black;
+  background-color: lightgray;
   justify-content: space-between;
   margin-bottom: 40px;
   display: flex;
@@ -111,10 +111,25 @@ header h1, header h2{
 
 /* Container holding the image and the text */
 .container {
-  background-color: black;
+  background-color: lightgray;
   position: relative;
   text-align: center;
-  color: white;
+  /* color: white; */
+}
+
+.container a:hover {
+  color: #000000;
+}
+
+.nav-container {
+  background-color: lightgray;
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+.nav-container a:hover {
+  color: #ffffff;
 }
 
 .fullscreen {
@@ -144,7 +159,7 @@ header h1, header h2{
 }
 
 .fullscreen-header h2 {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .resume {
@@ -169,7 +184,7 @@ header h1, header h2{
 /* Desktop Responsive */
 @media all and (min-width: 700px) {
   .fullscreen-header h2 {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 }
 
@@ -258,7 +273,7 @@ svg:not(:root).svg-inline--fa {
 }
 
 .skill-icon {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -366,4 +381,36 @@ form textarea {
 
 form textarea {
   height: 160px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  color: #332E3C;
+}
+
+.footer-icon {
+  font-size: 30px;
+  padding-right: 20px;
+  color: #332E3C;
+  cursor: pointer;
+}
+
+.footer-icon:last-child {
+  padding-right: 0;
+}
+
+.footer-icon:hover, .footer-icon:focus {
+  color: #3587A4;
+}
+
+.social-links {
+  padding: 10px;
 }
