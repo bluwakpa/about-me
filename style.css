@@ -14,7 +14,7 @@ img {
 
 nav {
   font-size: 18px;
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   font-family: 'Open Sans', sans-serif, arial;
   padding: 20px 0;
   /* margin: 0 0 10px 10px; */
@@ -51,6 +51,12 @@ img.buffer {
   margin: 0px;
 }
 
+main h1 {
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-weight: 400;
+}
+
 main h2 {
   font-size: 38px;
   font-family: 'Open Sans', sans-serif, arial;
@@ -73,10 +79,15 @@ p {
 /* Header */
 
 header {
+  font-family: 'Open Sans', sans-serif, arial;
   background-color: black;
   justify-content: space-between;
   margin-bottom: 40px;
   display: flex;
+  width: 37%;
+  margin: 0 auto;
+  height: 30vh;
+  display: -webkit-flex;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -88,7 +99,14 @@ header h1, header h2{
   padding: 20px 0;
   font-family: 'FF Din', dax, optima;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
 }
+}
+
+.fullscreen-header {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Container holding the image and the text */
@@ -97,6 +115,72 @@ header h1, header h2{
   position: relative;
   text-align: center;
   color: white;
+}
+
+.fullscreen {
+  height: 50vh;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fullscreen-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullscreen-header p, .fullscreen-header h1, .fullscreen-header h2 {
+  margin: 0;
+}
+
+.fullscreen-header p {
+  padding-bottom: 10px;
+}
+
+.fullscreen-header h1 {
+  padding-bottom: 10px;
+}
+
+.fullscreen-header h2 {
+  padding-bottom: 10px;
+}
+
+.resume {
+  text-decoration: none;
+  background-color: #332E3C;
+  width: max-content;
+  padding: 1em 2em;
+  color: #EFF2EF;
+  border: none;
+  transition: all 500ms ease-in-out;
+}
+
+.resume:hover, .resume:focus {
+  cursor: pointer;
+  background: linear-gradient(90deg, #332E3C, #3587A4);
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Desktop Responsive */
+@media all and (min-width: 700px) {
+  .fullscreen-header h2 {
+    padding-bottom: 20px;
+  }
+}
+
+.header-rows {
+  padding-top: 20px;
+  display: grid;
+  /* grid-template-columns: repeat(2,1fr); */
+  grid-template-rows: repeat(2,1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 15px;
+  /* text-align: center; */
 }
 
 /* Centered H1 text */
