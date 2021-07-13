@@ -53,24 +53,24 @@ img.buffer {
 
 main h1 {
   font-size: 48px;
-  font-family: 'Open Sans', sans-serif, arial;
+  font-family: 'Open Sans', arial, sans-serif;
   font-weight: 400;
 }
 
 main h2 {
   font-size: 38px;
-  font-family: 'Open Sans', sans-serif, arial;
+  font-family: 'Open Sans', arial, sans-serif;
   font-weight: 400;
 }
 
 main h3 {
   font-size: 28px;
-  font-family: 'Open Sans', sans-serif, arial;
+  font-family: 'Open Sans', arial, sans-serif;
   font-weight: 400;
 }
 
 p {
- font-family: 'Open Sans', sans-serif, arial;
+ font-family: 'Open Sans', arial, sans-serif;
  font-size: 18px;
  line-height: 1.5em;
  margin-bottom: 0em;
@@ -79,7 +79,7 @@ p {
 /* Header */
 
 header {
-  font-family: 'Open Sans', sans-serif, arial;
+  font-family: 'Open Sans', arial, sans-serif;
   background-color: lightgray;
   justify-content: space-between;
   margin-bottom: 40px;
@@ -338,7 +338,7 @@ main .intro {
 
 #home, #portfolio, #contact {
   margin-bottom: 120px;
-  margin: 40px;
+  margin: 0;
 }
 
 /* ABOUT ARTICLE */
@@ -413,4 +413,8 @@ form textarea {
 
 .social-links {
   padding: 10px;
+}
+
+a.social-links:hover {
+  color:rgb(0, 0, 0)
 }
