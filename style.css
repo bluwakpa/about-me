@@ -17,7 +17,6 @@ nav {
   background-color: rgb(0, 0, 0);
   font-family: 'Open Sans', sans-serif, arial;
   padding: 20px 0;
-  /* margin: 0 0 10px 10px; */
 }
 
 ul {
@@ -31,6 +30,7 @@ ul {
 }
 
 /* Navigation Container */
+
 a {
   padding: 0px 10px 10px 0px;
   font-size: 18px;
@@ -92,17 +92,17 @@ header {
 }
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
 header h1, header h2{
-  /* color: #eff0e5; */
   text-align: center;
   margin: 4px;
   padding: 20px 0;
-  /* font-family: 'FF Din', dax, optima; */
+  font-family: 'Open Sans', arial, sans-serif;
   font-size: 30px;
   display: flex;
   flex-direction: column;
-}
+  }
 }
 
 .fullscreen-header {
@@ -111,11 +111,11 @@ header h1, header h2{
 }
 
 /* Container holding the image and the text */
+
 .container {
   background-color: lightgray;
   position: relative;
   text-align: center;
-  /* color: white; */
 }
 
 .container a:hover {
@@ -126,7 +126,6 @@ header h1, header h2{
   background-color: lightgray;
   position: relative;
   text-align: center;
-  /* color: white; */
 }
 
 .nav-container a:hover {
@@ -183,6 +182,7 @@ header h1, header h2{
 }
 
 /* Desktop Responsive */
+
 @media all and (min-width: 700px) {
   .fullscreen-header h2 {
     padding-bottom: 50px;
@@ -192,21 +192,22 @@ header h1, header h2{
 .header-rows {
   padding-top: 20px;
   display: grid;
-  /* grid-template-columns: repeat(2,1fr); */
   grid-template-rows: repeat(2,1fr);
   grid-column-gap: 0;
   grid-row-gap: 15px;
-  /* text-align: center; */
 }
 
 /* Centered H1 text */
+
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 /* Centered H2 text */
+
 .centered-buff {
   position: absolute;
   top: 60%;
@@ -239,15 +240,12 @@ header h1, header h2{
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(2,1fr);
   grid-column-gap: 0;
-  grid-row-gap: 15px;
-  /* text-align: center; */
+  grid-row-gap: 50px;
 }
 @media (max-width: 600px) { 
   .portfolio-container, .grid
   { 
     grid-template-columns: repeat(1,1fr); 
-    
-    /* grid-template-rows: repeat(1,1fr);  */
   } 
   .footer {
     display: block !important;
@@ -263,8 +261,6 @@ header h1, header h2{
   padding-top: 0px;
   padding-bottom: 0px;
   border-bottom: 2px solid black;
-  /* font-size: 28px;
-  align-self: center; */
 }
 
 .project-tech {
@@ -302,7 +298,6 @@ svg:not(:root).svg-inline--fa {
 
 .svg-inline--fa {
   display: inline-block;
-  /* font-size: inherit; */
   height: 1em;
   overflow: visible;
   vertical-align: -0.125em;
@@ -325,6 +320,7 @@ main .intro {
 }
 
 /* Groups & Items  (Mobile First) */
+
 .wrapper {
   width: 100%;
 }
@@ -334,23 +330,11 @@ main .intro {
   flex-direction: column;
 }
 
-/* @media all and (max-width: 800px) {
-.item {
-  flex: 1;
-  height: auto !important;
-  border: 10px red !important;
-  margin: 10px;
-}
-} */
-
 @media all and (max-width: 800px) { 
   .item {
-    /* flex: 1; */
-    /* height: auto !important; */
     height: auto;
     border: 10px red !important;
     margin: 0px;
-    /* margin: 10px; */
   }
 }
 
@@ -358,11 +342,6 @@ main .intro {
   flex: 1;
   margin: 10px;
 }
-
-/* .mockup {
-  background-color: salmon;
-  
-} */
 
 .item-double {
   flex: 2;
@@ -376,7 +355,6 @@ main .intro {
     width: 80%;
     margin: auto;
   }
-
   .group {
     flex-direction: row;
   }
